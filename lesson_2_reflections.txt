@@ -5,3 +5,13 @@ ANSWER: WHen you initialize a reporsitory, you create a hidden repository called
 ## Second question: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 ANSWER:  Staging area let's you select the files you want to commit from the working directory, so when you commit you don't have to add all of them. It helps to keep the commmits subject related.
+
+
+### Third question: How can you use the staging area to make sure you have one commit per logical change?
+
+ANSWER: You can add to staging files that belong to the same logical change, and then commit those together, as well as adding a message that clearly summarizes the commit your doing. 
+
+
+### Forth question: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+ANSWER: By creating a branch, you can experiment new code without messing around with your current working code. If you brake something, just checkout to master (or the latest commit) and you're safe again. It helps to keep histpry organized because you don't directly change it.
