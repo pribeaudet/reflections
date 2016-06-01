@@ -1,0 +1,40 @@
+# First class was about using the diff command on the command line to compare two files
+
+# This is specially used when debugging, the teacher gave an example with an HTML file.
+
+## First question: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+ANSWER: Because the first file was a version control, in other words the original file, and the second one was a new file with all the modifications. 
+By comparing the version control with the original code with the new file, we can identify what was changed and what possibly caused the bug.
+
+
+## Second question: How could you having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+ANSWER: By checking all the modifications done with a file, you can see how it was built and maybe identify sensitive parts to pay attention. 
+Also, when you analyze how somebody else built the file, you can have your own ideas of how to make it better, which means, suggestions of improvements. 
+
+
+### Third question: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+ANSWER:PROS - the developer can use his judgement and commit when necessary, being more efficient and safe
+CONS - By choosing manually, the developer may forget to commit or create big commits, that will make his life more difficult when a diff is necessary.
+
+
+### Forth question: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+ANSWER: A program, let's say a game, for instance, require multiple files to work properly. So it's important to keep track of the updates simultaneosly, as one modification may affect all files. Google docs deals while files that are independent projets, let's say a spreadsheet, where there's no need of saving other files not direct related at the same time. The difference is the nature of the project.
+
+
+### Fifth question: How can you use the commands git log and git diff to view the history of files?
+
+ANSWER: By entering the right message about the nature of the commit, when you do git log you have a precise idea of how a feature was developed step by step, by looking at it's commits. With git diff, you can see what changed from one commit to the other. It helps to identify a possible bug to be fixed, when knowing in advance which commit could have caused a bug.
+
+
+### Sixth question: How might using version control make you more confident to make changes that could break something?
+
+ANSWER: because you'll be able to precisely identify which change broke the feature, then with checkout you can come back and fix the code that caused the problem. The ability to come back to a previous version (or commit) makes you more confident, because there's a way back.
+
+
+### Seventh question: Now that you have your workspace set up, what do you want to try using Git for?
+
+ANSWER: Keep track of the modifications I made on my code, be able to find a commit that caused a bug and easily fix it. With git log, I can see who and when made modifications to my code as well.
