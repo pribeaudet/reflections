@@ -20,3 +20,8 @@ ANSWER: By creating a branch, you can experiment new code without messing around
 ### Fifth question: How do the diagrams help you visualize the branch structure?
 
 ANSWER: It helps to understand what the master branch is and how the other subsequent branches relate to it, also how the commits are structured to keep the past of the branch where it was commited.
+
+
+### Sixth question: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+ANSWER: Merging 2 branches together keeps the history of the master branch and adds on the new code that was tested and validated in the new branch. It is represented in the diagram the way it was to illustrate that many people can work on different branches at the same time, and then merge it all to master.
