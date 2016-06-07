@@ -25,3 +25,9 @@ ANSWER: It helps to understand what the master branch is and how the other subse
 ### Sixth question: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 ANSWER: Merging 2 branches together keeps the history of the master branch and adds on the new code that was tested and validated in the new branch. It is represented in the diagram the way it was to illustrate that many people can work on different branches at the same time, and then merge it all to master.
+
+
+### Seventh question: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+ANSWER: Pros: In the automatic, it points out the conflicts so you can choose what to keep/delete. Same goes for manual.
+Cons: It requires some time and analysis to figure out code modification, ans some asking around as well.
