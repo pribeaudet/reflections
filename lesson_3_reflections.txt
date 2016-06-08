@@ -1,3 +1,10 @@
 ## First question: When would you want to create a remote repository rather than keeping all your work local?
 
 ANSWER: When other people will collaborate to that repo. Also, it's a safe backup for your code, not trusting that everything wil lbe hosted only in your machine.
+
+### Second question: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+ANSWER: Because if it's a shared repo, people may commit stuff and it will automatically be pulled to your machine, inserting modifications that you don't want. This will get out of hand. 
+By pulling manually, you will know the right moment when what's n github has to be merged to what you have on your local.
+
+
