@@ -1,1 +1,3 @@
-When would you want to create a remote repository rather than keeping all your work local?
+## First question: When would you want to create a remote repository rather than keeping all your work local?
+
+ANSWER: When other people will collaborate to that repo. Also, it's a safe backup for your code, not trusting that everything wil lbe hosted only in your machine.
