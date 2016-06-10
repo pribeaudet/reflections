@@ -10,3 +10,8 @@ By pulling manually, you will know the right moment when what's n github has to 
 ### Third question: Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 ANSWER: Fork will "clone" a repo from github, where it was all original content but you can make changes without modifying the original repo. Clone copies a repo in your local. A branch is a new "folder" inside your local repo, with the original content, where you can make changes and then merge back to master.
+
+
+### Fourth question: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+ANSWER: If you're collaborating and the latest modifications on remote will impact your code, it is important to keep your local updated.
