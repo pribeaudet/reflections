@@ -15,3 +15,8 @@ ANSWER: Fork will "clone" a repo from github, where it was all original content 
 ### Fourth question: What is the benefit of having a copy of the last known state of the remote stored locally?
 
 ANSWER: If you're collaborating and the latest modifications on remote will impact your code, it is important to keep your local updated.
+
+
+### Fifth question: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+ANSWER: I think it would be much harder ans specially time consuming to collaborate without using Git and Github, since it would require an absurd level of management and control, as well as establishing a very good communication channel.
